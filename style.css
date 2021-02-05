@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&family=Paytone+One&display=swap');
+
+/* ===============
+    GENERAL
+=============== */
+:root {
+    --accent-one: #E5A236;
+    --accent-two: #508EF8;
+    --accent-three: #7AB886;
+}
+body {
+    background: #eee;
+    font-family: 'Nunito', Helvetica, sans-serif;
+}
+strong {
+    color: var(--accent-two)
+}
+/* ===============
+    HEADER
+=============== */
+.best-dressed {
+    position: fixed;
+    top: 1em;
+    width: 10em;
+}
+.best-dressed img {
+    width: 100%;
+}
+header {
+    width: 70%;
+    height: 160px;
+    padding-left: 12em;
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    font-family: 'Paytone One', impact;
+    font-size: 3em;
+    color: var(--accent-three);
+}
+
+/* ===============
+    MAIN
+=============== */
+main {
+    padding-left: 12em;
+}
+.game-board {
+    background: #ddd;
+    width: 90%;
+    margin: 2em 0;
+    padding: 1em;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px #d9d9d9;
+}
+.instructions {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.9em;
+    text-align: justify;
+}
+.corgi {
+  width: 200px;
+  height: 200px;
+}
+
+/* position boards */
+.relative, .absolute, .fixed, .sticky {
+    display: flex; 
+}
+.clothing img {
+    display: block;
+    margin: 0 1em 0.5em 0;
+}
+.absolute-corgi img  {
+    margin-right: 1em;
+}
+.absolute-game-board {
+    position: relative;
+}
+.fixed-corgi {
+    margin-right: 1em;
+}
+.sticky { 
+    overflow: auto;
+}
+.sticky img {
+    margin-right: 1em;
+}
+.stick-clothing {
+    z-index: 1;
+}
+.zindex {
+    position: relative;
+    min-height: 200px;
+}
+.zindex-corgi {
+    position: absolute;
+    left: 0;
+}

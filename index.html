@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Corgis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="students-code-here.css">
+</head>
+<body>
+    <!-- BEST DRESSED DOGGO AWARD -->
+    <div class="best-dressed">
+        <img src="assets/award.png" alt="award">
+    </div>
+    <!-- HEADER -->
+    <header>
+        <h1>Paper Corgi Dress Up</h1>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <!-- RELATIVE -->
+        <div class="game-board">
+            <!-- instructions -->
+            <div class="instructions">
+                <em>Dogname</em> wants to wear the <strong>#clothing style</strong> clothes!<br/>Place the clothes on top of them by using relative positioning. 
+            </div>
+
+            <!-- doll & clothes -->
+            <div class="relative">
+                <div class="clothing">
+                    <img src="https://placehold.it/100x100.png" alt="clothes 1" class="correct-relative">
+                    <img src="https://placehold.it/100x100.png" alt="clothes 2">
+                </div>
+                <div class="relative-corgi">
+                    <img src="assets/corgi.png" alt="corgi 1" class="corgi">
+                </div>
+            </div>
+        </div>
+        <!-- ABSOLUTE -->
+        <div class="game-board absolute-game-board">
+            <!-- instructions -->
+            <div class="instructions">
+                <em>Dogname</em> wants to wear the <strong>#clothing style</strong> clothes!<br/>Place the clothes on top of them by using absolute positioning. <br/>Note: Try and find where the nearest position ancestor is by setting the top and left to 0. 
+            </div>
+            
+            <!-- doll & clothes -->
+            <div class="absolute">
+                <div class="absolute-corgi">
+                    <img src="assets/corgi.png" alt="corgi 2" class="corgi">
+                </div>
+                <div class="clothing">
+                    <img src="https://placehold.it/100x100.png" alt="clothes 1">
+                    <img src="https://placehold.it/100x100.png" alt="clothes 2" class="correct-absolute">
+                </div>
+            </div>
+        </div>
+        <!-- FIXED -->
+        <div class="game-board">
+            <!-- instructions -->
+            <div class="instructions">
+                <em>Dogname</em> already got all dressed up! She thinks she's clearly the best dressed.<br/> Place <em>Dogname's</em> <strong>#pawprint</strong> in the middle of the award ribbon at the top of the page by using fixed positioning.
+            </div>
+
+            <!-- doll & clothes -->
+            <div class="fixed">
+                <div class="fixed-corgi">
+                    <img src="assets/corgi.png" alt="corgi 3" class="corgi">
+                </div>
+                <div class="fixed-corgi-signature">
+                    <img src="https://placehold.it/50x50.png" alt="corgi's pawprint" class="pawprint">
+                </div>
+            </div>
+        </div>
+
+        <!-- STICKY -->
+        <div class="game-board">
+            <!-- instructions -->
+            <div class="instructions">
+                <em>Dogname</em> wants to try all of these clothes on before deciding which one to wear.<br/>Make it so that while scrolling horizontally through the clothes, <strong>#dogname</strong> stays on the left side, allowing him to try them all on.
+            </div>
+
+            <!-- doll & clothes -->
+            <div class="sticky">
+                <img src="assets/corgi.png" alt="corgi 4" class="stick-corgi corgi">
+                <img src="https://placehold.it/200x200.png" alt="clothing" class="stick-clothing">
+                <img src="https://placehold.it/200x200.png" alt="clothing" class="stick-clothing">
+                <img src="https://placehold.it/200x200.png" alt="clothing" class="stick-clothing">
+                <img src="https://placehold.it/200x200.png" alt="clothing" class="stick-clothing">
+                <img src="https://placehold.it/200x200.png" alt="clothing" class="stick-clothing">
+            </div>
+        </div>
+
+        <!-- Z-INDEX -->
+        <div class="game-board">
+            <!-- instructions -->
+            <div class="instructions">
+                <em>Dogname</em> has already chosen what they want to wear! But they don't quite know how to put it on... <br/>
+                Help <em>dogname</em> out by changing the z-index of the <strong>#clothing</strong>
+            </div>
+
+            <!-- doll & clothes -->
+            <div class="zindex">
+                <img src="https://placehold.it/100x100.png" alt="clothing" class="z-clothing">
+                <img src="assets/corgi.png" alt="corgi 5" class="zindex-corgi corgi">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
