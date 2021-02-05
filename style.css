@@ -48,6 +48,7 @@ main {
 .game-board {
     background: #ddd;
     width: 90%;
+    min-width: 600px;
     margin: 2em 0;
     padding: 1em;
     border-radius: 5px;
@@ -74,23 +75,52 @@ main {
     display: block;
     margin: 0 1em 0.5em 0;
 }
+.sunglasses, .funny-glasses {
+    width: 80px;
+}
+.monocle {
+    width: 40px;
+}
 .absolute-corgi img  {
     margin-right: 1em;
 }
 .absolute-game-board {
     position: relative;
 }
+.bowtie {
+    width: 60px;
+    transform: rotate(25deg);
+}
+.collar {
+    width: 60px;
+    transform: rotate(40deg);
+}
+.bandana {
+    width: 80px;
+    transform: rotate(10deg);
+}
 .fixed-corgi {
     margin-right: 1em;
 }
+.dressed-corgi {
+    height: auto;
+}
+.pawprint {
+    width: 45px;
+}
 .sticky { 
     overflow: auto;
+    width: 600px;
+}
+.sticky-padding {
+    min-width: 385px;
 }
 .sticky img {
     margin-right: 1em;
 }
 .stick-clothing {
     z-index: 1;
+    width: 200px;
 }
 .zindex {
     position: relative;
@@ -99,4 +129,10 @@ main {
 .zindex-corgi {
     position: absolute;
     left: 0;
+}
+.top-hat {
+    position: relative;
+    left: 133px;
+    top: -10px;
+    width: 40px;
 }
